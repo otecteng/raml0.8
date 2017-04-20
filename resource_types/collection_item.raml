@@ -1,0 +1,13 @@
+#%RAML 0.8 ResourceType
+description: Detail of <<resourcePathName|!singularize>>
+get:
+  description: |
+    Get the <<resourcePathName|!singularize>>
+    with <<resourcePathName|!singularize>>Id =
+    {<<resourcePathName|!singularize>>Id}
+  responses:
+    200:
+      body:
+        application/json:
+          example: |
+            <<example_item>>
